@@ -77,6 +77,7 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
         height: fit-content;
         background-color: hsl(var(--clr-light));
+        padding-top: 105px;
     }
 `;
 

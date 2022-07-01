@@ -4,12 +4,18 @@ import Link from "next/link";
 import { color, fontSize, space, width } from "styles/functions";
 
 export const Wrapper = styled(motion.header)`
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
     padding: 2rem 0;
     height: min-content;
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: solid red 1px;
+    /* border-bottom: solid red 1px; */
+    background-color: ${color("light", 0.7)};
+    backdrop-filter: blur(40px);
 `;
 
 export const NavWrapper = styled.div`

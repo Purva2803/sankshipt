@@ -29,7 +29,7 @@ yarn-error.log*
 .env*.local
 
 # posts folder
-/posts
+# /posts
 
 # vercel
 .vercel
